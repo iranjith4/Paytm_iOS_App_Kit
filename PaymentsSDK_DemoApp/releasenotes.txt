@@ -1,0 +1,25 @@
+2.7.1
+===
+- Added the HTTP method in the log of making a connection 
+- Changed PGSDK version to 2.7
+
+2.7
+===
+Changed the kReachabilityChangedNotification const value and renaming that const variable to avoid name clash
+
+2.6
+===
+Rebuild 2.5 release using Archive option so that BitCode enabled is properly set in the library
+
+2.5
+===
+Renamed Reachability class to avoid name class with the versions that are included in the merchant apps
+
+2.4
+===
+Compiled using Xcode 7.1 and Bitcode enabled
+
+2.3
+===
+Added logging support
+Better handling of the 120 Resp code when number of txn/day limit is reached
